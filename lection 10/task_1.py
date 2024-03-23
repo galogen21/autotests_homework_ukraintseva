@@ -14,6 +14,9 @@
 # iuy qnikkgxvxfxtxv
 
 import random
-
-
-# Здесь пишем код
+import string
+def generate_random_name():
+    letters = string.ascii_lowercase
+    word1 = ''.join(random.choice(letters) for i in range(random.randint(1, 15)))
+    word2 = ''.join(random.choice(letters) for i in range(random.randint(1, 15)))
+    yield f'{word1} {word2}'

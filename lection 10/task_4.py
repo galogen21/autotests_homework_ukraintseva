@@ -4,3 +4,7 @@
 
 import pytest
 
+
+### смотри файлы 
+Test_class_my.py
+conftest.py
